@@ -1,0 +1,103 @@
+@media only screen and (max-width: 800px) {
+   .main_header{
+       flex-direction: column-reverse;
+       height: max-content !important;
+   }
+   .design_tools > ul > li{
+       margin-top: 30px;
+   }
+   section h1{
+       font-size: 32px !important;
+   }
+   
+.heading_about{
+ 
+    font-size: 35px;
+   
+}
+.right_header{
+
+    justify-content: center;
+}
+.heading_about > span:nth-child(1){
+    font-size: 30px;
+ 
+}
+.heading_about > span:nth-child(2){
+ 
+    font-size: 18px;
+    
+}
+.top_menu{
+    height: auto!important;
+    flex-direction: column;
+}
+.top_menu_left{
+    display: block;
+    text-align: center;
+}
+.design_tools > ul > li:nth-child(odd){
+    margin-left: 0;
+}
+.top_menu_contact_me_button {
+white-space: nowrap;
+margin-left: -5px;
+}
+.right_menu_left{
+    justify-content: center;
+}
+.right_menu_left{
+    padding: 0px 10px;
+}
+.right_menu_left > ul > li {
+width: 65px;
+}
+.right_header img{
+    height: 400px;
+}
+.left_header > h1{
+    font-size: 45px;
+    white-space: nowrap;
+}
+.left_header > h3{
+    font-size: 16px;
+    white-space: nowrap;
+}
+footer{
+    height: max-content;
+    padding: 30px 0;
+}
+
+.row-2{
+    flex-direction: column;
+    align-items: center;
+}
+.about > h4{
+    font-size: 22px;
+}
+.work-right{
+    margin-left: 0px;
+    margin-top: 30px;
+}
+.experience{
+    display: block;
+}
+.experience > div:nth-child(1)> h1{
+margin-top: 0;
+}
+.experience > div:nth-child(2){
+    display: none;
+}
+.top_menu_logo{
+    margin-left: 0;
+}
+footer ul li{
+    margin-left: 15px;
+}
+.about_hobbies {
+    flex-direction: column;
+}
+.about_hobbies > div:nth-child(2){
+    margin-left: 0;
+}
+  }
